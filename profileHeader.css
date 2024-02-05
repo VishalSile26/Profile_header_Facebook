@@ -1,0 +1,195 @@
+
+
+*{
+    background-color: rgb(45, 45, 45);
+    color: aliceblue;
+    
+    
+    
+}
+
+#frame {
+    position: relative;
+background-color: rgb(45, 45, 45);
+    width: 80vw;
+    aspect-ratio: 16/9;
+    margin: 5px 10vw ;
+    background-image: url("./Images/clark-tibbs-oqStl2L5oxI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 130px;
+ }
+
+ #myImg{
+    height: 176px;
+    width: 176px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -108px;
+    left: 32px;
+ }
+
+ #innerFrame{
+    position: absolute;
+    margin-top: 0;
+    bottom: -68px;
+    left: 228px;
+    display: flex;
+ }
+ #userName{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+ }
+#friendsNum{
+    color: bisque;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.storyBtn{
+    border: 0;
+    border-radius: 16px;
+    background-color: blue;
+    padding: 12px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.buttonBox{
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+    bottom: -68px;
+}
+
+.editButton{
+    border: 0;
+    border-radius: 16px;
+    background-color: grey;
+    padding: 12px;
+    font-weight: bold;
+    margin-right: 8px;
+    
+}
+ .expandbtn{
+    border: 0;
+    width: 4vw;
+    border-radius: 16px;
+    background-color: grey;
+    padding: 12px;
+    margin-right: 8px;
+    font-weight: bold;
+ }
+
+ hr{
+    margin: 0 10vw;
+    border: 1px solid grey;
+ }
+
+
+ .navbar{
+    display: flex;
+    margin: 8px 10vw;
+ }
+ .navbar h5{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 8px 16px;
+    padding: 12px;
+ }
+ .navbar h5:hover{
+    background-color: black;
+    border-radius: 16px;
+    
+ }
+
+ #bio{
+    margin: 0 10vw;
+    display: flex;
+ }
+
+ #info{
+    background-color: black;
+    border-radius: 12px;
+    padding: 2px 8px;
+    margin: 8px;
+    width: 30vw;
+ }
+ #info h5{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 8px;
+ }
+
+ #info button{
+    width: 30vw ;
+    border-width: 0;
+    border-radius: 16px;
+    padding: 8px;
+    margin-bottom: 8px;
+ }
+ 
+
+
+ ul{
+    list-style: none;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ li{
+    background-color: black;
+    margin-bottom: 8px;
+ }
+#photosDiv{
+    background-color: black;
+    border-radius: 12px;
+    padding: 2px 8px;
+    margin: 8px;
+    max-width: 45vw;
+}
+ #photosDiv h5{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 8px;
+ }
+
+ .photoHeading{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .photoHeading h3{
+    background-color: black;
+    color: blue;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    font-weight: 100;
+ }
+ .imgBox{
+    background-color: black;
+ }
+
+ .imgBox img{
+    width: 13vw;
+    height: 14vw;
+    border-radius: 12px;
+    margin: 4px;
+    background-color: black;
+    
+ } 
+ button:hover{
+    opacity: 0.5;
+ }
